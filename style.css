@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+#button{
+    height: 30px;
+    width: 12%;
+}
+
+#chosencolor {
+    height: 30px;
+    width: 20%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.invalid {
+    margin: 0% auto;
+    text-align: center;
+    font-size: 150%;
+}
+
+body{
+    display:block;
+    width: 100%;
+    background-image: url("max-bohme-eajvTAkDovM-unsplash.jpg");
+}
+
+h1 {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    font-size: 375%;
+}
+
+h2 {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    font-size: 240%;
+}
+
+form {
+    margin: 5% auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+}
+
+p {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 5% auto;
+    background-color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    }
+
