@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Identifier!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1> Color Identifier </h1>
-    <h2> </h2>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Color Identifier</h1>
     <form>
-        <label> Enter a color in hexidecimal notation: </label><br>
-        <label> (6 digits, using 0-9 & a-f only) </label><br>
-        <input type="text" placeholder="XXXXXX" autocomplete="off" length="6" 
-        id="chosencolor" name="chosencolor">
-        <input id="button" type="button" name="button" value="Show me!">
+      <label> Enter a color in hexadecimal notation: </label><br />
+      <label> (6 digits, using 0-9 & a-f only) </label><br />
+      <input
+        type="text"
+        placeholder="XXXXXX"
+        autocomplete="off"
+        length="6"
+        id="chosencolor"
+        name="chosencolor"
+      />
+      <input id="button" type="button" name="button" value="Show me!" />
     </form>
-    <div class="invalid" name="inv"> </div>
+    <div class="invalid" name="inv"></div>
     <p class="color"></p>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </html>
